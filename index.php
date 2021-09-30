@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="messi.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="image/x-icon" href="img/globe.svg" />
-		<title>CourseworkTwo</title>
+		<title>Coursework2</title>
 	</head>
 
 <body>
