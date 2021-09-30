@@ -1,0 +1,310 @@
+
+html, body {
+  background-color: #FFFAFA;
+  height: 100%;
+  line-height: 1;
+  font-family: Courier;
+}
+
+header {
+  background: url("img/pic1.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  font-weight: bold;
+  background-color: rgba(220, 220, 220, 0.5);
+}
+
+.iconbrand {
+  text-transform: none;
+  font-family: Courier;
+  font-size:28px;
+  color:#000000;
+}
+
+.iconbrand:hover {
+  color: #FF0000;
+}
+
+.nav-link {
+  font-size:18px;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #FF0000;
+}
+
+.icons {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.offer h1, p {
+  color: #000000;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  text-shadow: grey 0.1em 0.1em 0.1em;
+}
+
+.title {
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  margin-left: 20px
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  padding-top: 100px; 
+}
+
+.about .wcard-title {
+  color: steelblue;
+  font-weight: bolder;
+}
+
+.about .wcard-text {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.about .wcard {
+  border: none;
+  text-align: center;
+  border-color: #FF0000;
+  box-shadow: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.about .wcard:hover {
+  -webkit-box-shadow: 5px 7px 9px -4px navy;
+  -moz-box-shadow: 5px 7px 9px -4px navy;
+  box-shadow: 5px 7px 9px -4px navy;
+}
+
+.about .wcard .wcard-block {
+  margin-bottom: 50px;
+  padding-left: 40px;
+  position: relative;
+}
+
+.about .wcard .wcard-block a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.about .wcard .wcard-block a i {
+  display: none;
+}
+
+.about .wcard:hover .wcard-block a i {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.about .wcard .wcard-block:before {
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 20px;
+  color: #FF0000;
+  left: 80px;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.about .wcard .block-1:before {
+  content: "";
+}
+
+.about .wcard .block-2:before {
+  content: "";
+}
+
+.about .wcard .block-3:before {
+  content: "";
+}
+
+.about .wcard:hover .wcard-block:before {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.portfolio {
+  background-color: #E5E5E5;
+  height: 100%;
+  width: 100%; 
+  padding-top: 100px;
+}
+
+.portfolio h3 {
+  margin-bottom: 10px;
+  color: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}  
+
+.portfolio .img-fluid {
+  margin-bottom: 100px;
+  border-radius: 20px;
+  width: 280px;
+  height: 320px;
+}
+
+ .services {
+  height: 100%;
+  width: 100%; 
+  padding-top: 100px; 
+}
+
+.card {
+  border-radius: 60px 20px 60px 20px;
+  border: solid 1px;
+  border-color: #FFFFFF;
+  margin: 10px;
+  height: 380px;
+  width: 290px;
+  background: #FFFFFF;
+}
+
+.card-img-top {
+  border: solid 1px;
+  border-color: #FFFFFF;
+  border-radius: 60px 20px 0px 0px;
+} 
+  
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+
+.button1 {
+  background-color: steelblue;
+  color: #E6E6FA;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px #4D4D4D;
+}
+
+.button1:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.button2 {
+  background-color: rgb(82, 166, 240);
+  color: #FFFFFF;
+  font-weight: 500;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #7F7F7F, 0 0 2em #ADD8E6;
+}
+
+.button2:hover {
+  background-color: #64AECA;
+  color: #FFFFFF;
+}
+
+.form-input
+{
+  border-radius: 5px;
+  box-shadow: 0 0 10px #7F7F7F, 0 0 2em #ADD8E6;
+}
+
+.form-input:hover {
+  background-color: #E4F4FA;
+  color: #4D4D4D;
+}
+
+/*Акция*/
+#dialog1 {
+   width: 300px;
+   border-radius: 20px;
+   background: #1c4857;
+   border: solid 3px;
+   border-color: #FF0000;
+}
+
+#dialog1::backdrop {
+  background: rgba(20,20,20,0.8);
+}
+
+/*Форма заказа*/
+#dialog2 {
+   max-width: 700px;
+   border-radius: 20px;
+   background: #fffefe;
+   border: solid 3px;
+   border-color: #fa0808;
+}
+
+#dialog2::backdrop {
+  background: rgba(20, 20, 20, 0.8);
+}
+
+/*Крестик "закрыть"*/
+.close {
+position: absolute;
+right: 10px;
+top: 10px;
+width: 32px;
+height: 32px;
+opacity: 0.5;
+}
+.close:hover {
+opacity: 1;
+}
+.close:before, .close:after {
+position: absolute;
+left: 15px;
+content: '';
+height: 20px;
+width: 3px;
+background-color: #FF0000;
+}
+.close:before {
+transform: rotate(45deg);
+}
+.close:after {
+transform: rotate(-45deg);
+}
+.clock {
+  text-align: center;
+  zoom: 0.5;
+}
+
+form 
+{
+  max-width: 500px;
+  margin: 0px auto;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.form_title 
+{
+  font-size: 30px;
+  font-weight: 500px;
+  margin: 0px 0px 30px 0px;
+}
+
+.custom-control-label
+{
+  font-size: 14px;
+}
+
