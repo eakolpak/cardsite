@@ -10,8 +10,8 @@
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
-    $token = "1932788478:AAH5LZaCOSwHlegmQ2beNmNKv6NcBhE_ETs";
-    $chat_id = "-533103864";
+    $token = "";
+    $chat_id = "";
  	$arr = array(
 			  'Имя пользователя: ' => $name,
 			  'Email: ' => $email,
